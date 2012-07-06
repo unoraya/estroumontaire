@@ -41,12 +41,12 @@
 					<img id="tickete" src="<?php echo get_template_directory_uri(); ?>/images/ticket.png" alt="tickete">
 					<div class="fluid_container">
 				        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-				            <div data-thumb="<?php echo get_template_directory_uri(); ?>/images/slides/thumbs/bridge.jpg" data-src="images/slides/bridge.png">
+				            <div data-thumb="<?php echo get_template_directory_uri(); ?>/images/slides/thumbs/bridge.jpg" data-src="<?php echo get_template_directory_uri(); ?>/images/slides/bridge.png">
 	<!-- 			                <div class="camera_caption fadeFromBottom">
 				                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
 				                </div> -->
 				            </div>
-				            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="<?php echo get_template_directory_uri(); ?>/images/slides/leaf.png">
+				            <div data-thumb="<?php echo get_template_directory_uri(); ?>/images/slides/thumbs/leaf.jpg" data-src="<?php echo get_template_directory_uri(); ?>/images/slides/leaf.png">
 	<!-- 			                <div class="camera_caption fadeFromBottom">
 				                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
 				                </div> -->

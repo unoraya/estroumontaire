@@ -3,44 +3,34 @@
 Template Name: Full Width
 */
 ?>
+<?php get_header(); 
 
-<?php get_header(); ?>
+      function the_slug() {
+        $post_data = get_post($post->ID, ARRAY_A);
+        $slug = $post_data['post_name'];
+        return $slug; 
+      }
 
-<div id="core" class="container">
-  <div class="row">
-
-        <?php get_search_form(); ?>
-
-        <div class="fullneed">
-            <?php if (get_option('themnific_slider_dis') <> "true") { ?>
-                  <?php //get_template_part('/includes/sliders/flexslider');?>
-            <?php } ?>
-                   
-            <?php if (have_posts()) : ?>
-                        <?php while (have_posts()) : the_post(); ?>
-
-                        <h2 class="titulo "><?php the_title(); ?></h2>
-                        <div class="post">
-                            
-                             <div class="entry">
-                             <?php the_content(); ?>
-                                <?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:','themnific') . '</span>', 'after' => '</div>' ) ); ?>
-                                <?php the_tags( '<p>' . __( 'Tags: ','themnific') . '', ', ', '</p>'); ?>
-                             <?php comments_template(); ?>
-                            </div>
-                        </div>
+?>
 
 
-                        <?php endwhile; ?><!-- end post -->
-            <?php else : ?>
-                <h1>Perdon no hay paginas encontradas.</h1>
-                        <?php get_search_form(); ?><br/>
-          <?php endif; ?>
+      <?php /*get_template_part('/includes/post-types/medpost-ini');?>
+        <?php 
+          query_posts('cat=5');
+          while (have_posts()) : the_post(); 
+        ?>
+          <?php get_template_part('/includes/post-types/medpost-ini-p');?>
+        <?php 
+          endwhile;
+          wp_reset_query();*/ 
+        ?>
 
-        </div><!-- end #core .span9-->
-
-  </div><!--end #core .row-->
-</div><!--end #core-->
-
+        <div id="contenido-p" class="span12">
+            <?php 
+            while (have_posts()) : the_post(); 
+              get_template_part('/includes/post-types/medpost-ini');
+            endwhile;
+            ?>  
+        </div>
 
 <?php get_footer(); ?>

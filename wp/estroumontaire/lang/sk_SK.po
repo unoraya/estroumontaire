@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dannci <info@dannci.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: ThemnificPro/comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Staršie komentáre"
+
+#. Text in echo
+#: ThemnificPro/template-filterable.php:14
+#: ThemnificPro/template-portfolio-plain.php:14
+#: ThemnificPro/template-portfolio.php:14
+#: ThemnificPro/archive.php:6
+#: ThemnificPro/template-filterable-plain.php:14
+msgid "All"
+msgstr "Všetko"
+
+#. Text in echo
+#: ThemnificPro/date.php:14
+#: ThemnificPro/date.php:16
+#: ThemnificPro/date.php:18
+msgid "Archive for"
+msgstr "Archív pre"
+
+#. Text in echo
+#: ThemnificPro/tag.php:9
+#: ThemnificPro/date.php:10
+#: ThemnificPro/category.php:9
+msgid "Archive for the"
+msgstr "Archív pre"
+
+#. Text in echo
+#: ThemnificPro/date.php:20
+msgid "Author Archive"
+msgstr "Archív autora"
+
+#. Text in echo
+#: ThemnificPro/date.php:22
+msgid "Blog Archives"
+msgstr "Blog archív"
+
+#. Text in echo
+#: ThemnificPro/tag.php:9
+#: ThemnificPro/date.php:10
+#: ThemnificPro/category.php:9
+msgid "Category"
+msgstr "kategória"
+
+#. Text in echo
+#: ThemnificPro/comments.php:46
+msgid "Comments are closed."
+msgstr "Komentáre sú uzavreté"
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:51
+msgid "Customize the Shortcode"
+msgstr "Uprav shortcode"
+
+#. Text in echo
+#: ThemnificPro/footer.php:37
+msgid "Diseñado por"
+msgstr "Dizajn"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr "E-mail nebol správne nastavený. Pridajte kontaktný e-mail! "
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Email"
+msgstr "Email"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Follow"
+msgstr "Follow"
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:77
+msgid "Framework does not support shortcodes."
+msgstr "Framework nepodporuje shortcodes"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "From: "
+msgstr "Od:"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Hide the Content"
+msgstr "Skry obsah"
+
+#. Text in echo
+#: ThemnificPro/includes/uni-navigation.php:15
+msgid "Home"
+msgstr "Domov"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:22
+msgid "Latest"
+msgstr "Najnovšie"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Message"
+msgstr "Správa"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Message via the contact form"
+msgstr "Správa "
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "My %s Profile"
+msgstr "Môj %s Profil"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Name"
+msgstr "Meno"
+
+#. Text in function
+#: ThemnificPro/comments.php:35
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novšie komentáre <span class=\"meta-nav\">&rarr;</span>"
+
+#. Text in function
+#: ThemnificPro/header.php:5
+msgid "Page %s"
+msgstr "Stránka"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your email address (and please make sure it\\'s valid)"
+msgstr "Zadajte e-mailovú adresu"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your message"
+msgstr "Zadajte správu"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your name"
+msgstr "Zadajte svoje meno"
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:23
+msgid "Popular"
+msgstr "Populárne"
+
+#. Text in function
+#: ThemnificPro/functions/posttypes/ptype-portfolio.php:1
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#. Text in echo
+#: ThemnificPro/tag.php:11
+#: ThemnificPro/date.php:12
+#: ThemnificPro/category.php:11
+msgid "Posts Tagged"
+msgstr "Značka článku"
+
+#. Text in echo
+#: ThemnificPro/footer.php:37
+msgid "Powered by"
+msgstr "Bežíme na "
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:60
+msgid "Preview"
+msgstr "Náhľad"
+
+#. Text in function
+#: ThemnificPro/functions.php:1
+msgid "Primary Menu"
+msgstr "Primárne menu"
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:24
+msgid "Random"
+msgstr "Náhodné"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Read Less"
+msgstr "Menej"
+
+#. Text in echo
+#: ThemnificPro/includes/post-types/medpost.php:9
+#: ThemnificPro/includes/post-types/bigpost.php:7
+#: ThemnificPro/includes/post-types/plainpost.php:6
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Read More"
+msgstr "Viac"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Reply-To: "
+msgstr "Odpovedz"
+
+#. Text in echo
+#: ThemnificPro/search.php:6
+msgid "Search Results for"
+msgstr "Hľadané výledky pre"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Send a copy of this email to yourself"
+msgstr "Pošli kópiu aj mne"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Show the Content"
+msgstr "Zobraz obsah"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Submit"
+msgstr "Odošli"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Subscribe to our RSS feed"
+msgstr "Odoberať RSS kanál"
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:25
+msgid "Tags"
+msgstr "Značky"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "There were one or more errors while submitting the form."
+msgstr "Nastali nejaké chyby"
+
+#. Text in echo
+#: ThemnificPro/core-magazine.php:78
+msgid "View More Posts"
+msgstr "Zobraz viac článkov"
+
+#. Text in echo
+#: ThemnificPro/template-filterable.php:74
+#: ThemnificPro/includes/folio-types/foliopost-full.php:29
+#: ThemnificPro/template-portfolio.php:55
+msgid "Visit Project"
+msgstr "Projekt"
+
+#. Text in echo
+#: ThemnificPro/template-portfolio-project.php:42
+msgid "Visit Website"
+msgstr "Web stránka"
+
+#. Text in echo
+#: ThemnificPro/includes/uni-postmore.php:2
+msgid "You may be interested in the following related articles as well."
+msgstr "Možno vás budú zaujímať nasledovné príbuzné články"
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Your email was successfully sent."
+msgstr "Email bol úspešne odoslaný"
+

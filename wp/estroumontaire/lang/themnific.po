@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: ThemnificPro/comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Antiguos comentarios"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/template-portfolio-plain.php:52
+#: ThemnificPro/template-portfolio.php:67
+#: ThemnificPro/template-blog.php:35
+#: ThemnificPro/template-portfolio-project.php:55
+msgid "<span class=\"meta-nav\">&larr;</span> Antiguos posts"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/template-filterable.php:14
+#: ThemnificPro/template-portfolio-plain.php:14
+#: ThemnificPro/template-portfolio.php:14
+#: ThemnificPro/archive.php:6
+#: ThemnificPro/template-filterable-plain.php:14
+msgid "Todos"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/date.php:14
+#: ThemnificPro/date.php:16
+#: ThemnificPro/date.php:18
+msgid "Archivo por"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/tag.php:9
+#: ThemnificPro/date.php:10
+#: ThemnificPro/category.php:9
+msgid "Archivo por el"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/date.php:20
+msgid "Autor del archivo"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/date.php:22
+msgid "Archivos de blog"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/tag.php:9
+#: ThemnificPro/date.php:10
+#: ThemnificPro/category.php:9
+msgid "Categoria"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/comments.php:46
+msgid "Los comentarios se han cerrado."
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:51
+msgid "Personalizar los Shortcode"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/footer.php:37
+msgid "Diseñado por"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Seguir"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:77
+msgid "El framework no soporta shortcodes."
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Desde: "
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Ocultar contenido"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-navigation.php:15
+msgid "Inicio"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:22
+msgid "Mas reciente"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Mensaje"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Mensaje via el formulario de contacto"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Mi %s Perfil"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Nombre"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/comments.php:35
+msgid "Comentarios mas nuevos <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/template-portfolio-plain.php:53
+#: ThemnificPro/template-portfolio.php:68
+#: ThemnificPro/template-blog.php:36
+#: ThemnificPro/template-portfolio-project.php:56
+msgid "posts mas nuevos <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/header.php:5
+msgid "Paginas %s"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/single.php:37
+#: ThemnificPro/page.php:13
+msgid "Paginas:"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your email address (and please make sure it\\'s valid)"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your message"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Please enter your name"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:23
+msgid "Popular"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/posttypes/ptype-portfolio.php:1
+msgid "Portfolio"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/tag.php:11
+#: ThemnificPro/date.php:12
+#: ThemnificPro/category.php:11
+msgid "Posts Tagged"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/footer.php:37
+msgid "Powered by"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/js/shortcode-generator/dialog.php:60
+msgid "Preview"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:24
+msgid "Random"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Read Less"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/post-types/medpost.php:9
+#: ThemnificPro/includes/post-types/bigpost.php:7
+#: ThemnificPro/includes/post-types/plainpost.php:6
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Reply-To: "
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/search.php:6
+msgid "Search Results for"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Show the Content"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/single.php:47
+#: ThemnificPro/page.php:23
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-tabs.php:25
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/single.php:38
+#: ThemnificPro/page.php:14
+msgid "Tags: "
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/core-magazine.php:78
+msgid "View More Posts"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/template-filterable.php:74
+#: ThemnificPro/includes/folio-types/foliopost-full.php:29
+#: ThemnificPro/template-portfolio.php:55
+msgid "Visit Project"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/template-portfolio-project.php:42
+msgid "Visit Website"
+msgstr ""
+
+#. Text in echo
+#: ThemnificPro/includes/uni-postmore.php:2
+msgid "You may be interested in the following related articles as well."
+msgstr ""
+
+#. Text in function
+#: ThemnificPro/functions/admin-shortcodes.php:1
+msgid "Your email was successfully sent."
+msgstr ""

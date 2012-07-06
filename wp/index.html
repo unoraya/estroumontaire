@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap, from Twitter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Le styles -->
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+	
+	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>     
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true,
+				height: '25%',
+				alignment: 'topLeft',
+				navigationHover: false
+			});
+		});
+	</script>
+
+	<style type="text/css">
+		header{
+			background-image: url(part1.png);
+			background-repeat:repeat-x;
+		}
+		footer{
+			border-top:thick solid #F9B233;
+			margin-top: 20px;
+			height: 150px;
+			background-color:#3C3C3B;
+		}
+		#fondoh{
+			width:100%;
+			position: absolute;
+			top:0px;
+			left:0px;
+		}
+		#construmentaire{
+			padding-left: 0px;
+    		padding-right: 0px;
+    		font-family: "Myriad Pro", Arial, Helvetica, Tahoma, sans-serif;
+    		background-position: 0 bottom;
+    		background-image: url(part2.png);
+			background-repeat:repeat-x;
+			font-size: 25px;
+			color: #58595B;
+			font-size: 18px;
+		    font-weight: lighter;
+		    line-height: 21px;
+		}
+		#bann{
+			position: relative;
+			z-index: 4;
+		}
+		#hero-fine{
+			margin-top:0px;
+			margin-bottom: 5px;
+			position: relative;
+		}
+		#menubar-fine{
+			position: relative;
+		}
+
+		#menubar-fine .navbar-inner{
+			background-color: #C6C6C6;
+			background-image: none;
+		}
+
+		#construmentaire .navbar .nav .active > a, #construmentaire .navbar .nav .active > a:hover{
+			background-color: #C6C6C6;
+		}
+
+		#construmentaire .navbar .nav > li > a{
+			color: #000;
+			padding: 9px 20px 11px;
+			font-size: 0.8em;
+		}
+
+		#construmentaire .navbar .nav > li > a:hover{
+			color: #fff;
+		}
+		#construmentaire .navbar .nav{
+			margin-bottom: 0;
+		}
+		.item-up-fine{
+			background-color: #575756;
+
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+
+		    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+		    min-height: 76px;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		    color:#fff;
+		    position: relative;
+		}
+		#portafolio-btn, #servicios-btn, #contacto-btn {
+			background-image: url("logo.png");
+		    display: block;
+		    height: 80px;
+		    width: 90px;
+		    float: left;
+		    position: absolute;
+		    top: 0px;
+		}
+		#portafolio-btn{
+			background-position: 356px 0;
+		}
+		#servicios-btn{
+			background-position: 272px 0;
+    		width: 110px;
+		}
+		#contacto-btn{
+			background-position: 154px 0;
+    		width: 86px;
+		}
+		.titulo-item-up{
+			float: left;
+		    margin-left: 35%;
+		    margin-top: 22px;
+		    text-align: center;
+		}
+		#tickete{
+			position: absolute;
+		    right: -3%;
+		    top: 64px;
+		    width: 30%;
+		    z-index: 23;
+		}
+		#bann2 {
+			margin-top: 15px;
+		}
+		#bann2 img{
+			width: 100%;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+		}
+		#contenido-p h2{
+			color: #58595B;
+		    font-size: 45px;
+		    line-height: 45px;
+		}
+		#contenido-p{
+			margin-top: 15px;
+		}
+
+		#logo{
+			position: relative;
+    		top: 40px;
+		}
+		.txt{
+			margin-bottom:20px;
+			text-align: justify;
+		}
+		.camera_commands{
+			display:none;
+		}
+
+		.camera_next{
+			display:none;
+		}
+
+	</style>
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-114x114.png">
+</head>
+<body id="construmentaire">
+
+	<header>
+		<img id="fondoh" src="backban.png" alt="fondo-header">
+		<div id="bann" class="container">
+			<div class="span12"><img id="logo" src="logo2.png" alt="logo"></div>
+			<div class="span12" style="margin-left:0px;">
+				<div id="hero-fine" >
+					<img id="tickete" src="ticket.png" alt="tickete">
+					<div class="fluid_container">
+				        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+				            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/bridge.png">
+	<!-- 			                <div class="camera_caption fadeFromBottom">
+				                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+				                </div> -->
+				            </div>
+				            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/leaf.png">
+	<!-- 			                <div class="camera_caption fadeFromBottom">
+				                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+				                </div> -->
+				            </div>
+				        </div><!-- #camera_wrap_1 -->
+				    </div><!-- .fluid_container -->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div id="menubar-fine" class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<div class="nav-collapse">
+							<div>
+								<ul class="nav">
+									<li class="active"><a href="#">HOME</a></li>
+									<li><a href="#about">ESTRUMONTAIRE</a></li>
+									<li><a href="#contact">PORTAFOLIO DE SERVICIOS</a></li>
+									<li><a href="#contact">NOVEDADES</a></li>
+									<li><a href="#contact">NUESTROS CLIENTES</a></li>
+									<li><a href="#contact">CONTACTO</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<!-- Main hero unit for a primary marketing message or call to action -->
+
+
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="span4 item-up-fine">
+				<span id="portafolio-btn"></span>
+				<h2 class="titulo-item-up">PORTAFOLIO</h2>
+			</div>
+			<div class="span4 item-up-fine">
+				<span id="servicios-btn"></span>
+				<h2 class="titulo-item-up">SERVICIOS</h2>
+		   </div>
+			<div class="span4 item-up-fine">
+				<span id="contacto-btn"></span>
+				<h2 class="titulo-item-up">CONTACTO</h2>
+			</div>
+			<div id="bann2" class="span12">
+				<img src="banner-01.jpg" alt="banner-01">
+			</div>
+			<div id="contenido-p" class="span12">
+					<h2>Quienes somos?</h2>
+				<div class="txt">
+					ESTRUMONTAIRE S.A.S. La nueva empresa que llenará sus espectativas y está Ubicada en  la ciudad de cali (colombia).
+					<br>
+					Una empresa con criterios de desempeño dedicada a la fabricación y mantaje de estructuras metálicas y montajes electro mecánicos; capaz de ejecutar proyectos dentro y fuera de la ciudad.
+				</div>	
+					<h2>Visión</h2>
+				<div class="txt">
+					Estrumontaire S.A.S. trabajará fuertemente para brindar un excelente servicio.
+					Cumplirá con los tiempos de entrega pactados.
+					Brindará una excelente atención a nuestros clientes.
+					estrumontaire s.a.s., cumplirá con los estandares de calidad establacidos y nesecidades con nuestros clientes.
+				</div>	
+					<h2>Misión</h2>
+				<div class="txt">
+					Con el profesionalismo de nuestro e quipo de trabajo, complacer a nuestros clientes y darles a conocer la buena calidad y el cumplmiento de nuestra empresa.
+					 <br>
+					- Ser una empresa reconocida a nivel nacional ey regional
+					- Ser una empresa reconocida por la calidad en los montajes electromecanicos y metalmecanicos en los campos del aire acondicionado y estrcturas
+				</div>	
+			</div>
+		</div>
+
+
+	</div> <!-- /container -->
+	<footer>
+
+	</footer>
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-alert.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-dropdown.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-scrollspy.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tab.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tooltip.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-popover.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-button.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

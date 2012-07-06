@@ -21,7 +21,8 @@
 			jQuery('#camera_wrap_1').camera({
 				thumbnails: true,
 				height: '25%',
-				alignment: 'topLeft'
+				alignment: 'topLeft',
+				navigationHover: false
 			});
 		});
 	</script>
@@ -81,6 +82,7 @@
 		#construmentaire .navbar .nav > li > a{
 			color: #000;
 			padding: 9px 20px 11px;
+			font-size: 0.8em;
 		}
 
 		#construmentaire .navbar .nav > li > a:hover{
@@ -154,14 +156,20 @@
 			margin-top: 15px;
 		}
 
-		.txt{
-			float: left;
-			margin-right: 20px;
-			padding-top: 2%;
-		}
 		#logo{
 			position: relative;
     		top: 40px;
+		}
+		.txt{
+			margin-bottom:20px;
+			text-align: justify;
+		}
+		.camera_commands{
+			display:none;
+		}
+
+		.camera_next{
+			display:none;
 		}
 
 	</style>
@@ -252,27 +260,21 @@
 				<img src="banner-01.jpg" alt="banner-01">
 			</div>
 			<div id="contenido-p" class="span12">
-				<div class="span12" >
 					<h2>Quienes somos?</h2>
-				</div>
-				<div class="span12">
+				<div class="txt">
 					ESTRUMONTAIRE S.A.S. La nueva empresa que llenará sus espectativas y está Ubicada en  la ciudad de cali (colombia).
 					<br>
 					Una empresa con criterios de desempeño dedicada a la fabricación y mantaje de estructuras metálicas y montajes electro mecánicos; capaz de ejecutar proyectos dentro y fuera de la ciudad.
 				</div>	
-				<div class="span12" >
 					<h2>Visión</h2>
-				</div>
-				<div class="span12">
+				<div class="txt">
 					Estrumontaire S.A.S. trabajará fuertemente para brindar un excelente servicio.
 					Cumplirá con los tiempos de entrega pactados.
 					Brindará una excelente atención a nuestros clientes.
 					estrumontaire s.a.s., cumplirá con los estandares de calidad establacidos y nesecidades con nuestros clientes.
 				</div>	
-				<div class="span12" >
 					<h2>Misión</h2>
-				</div>
-				<div class="span12">
+				<div class="txt">
 					Con el profesionalismo de nuestro e quipo de trabajo, complacer a nuestros clientes y darles a conocer la buena calidad y el cumplmiento de nuestra empresa.
 					 <br>
 					- Ser una empresa reconocida a nivel nacional ey regional

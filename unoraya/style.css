@@ -1,0 +1,376 @@
+/*
+Theme Name: Twenty Ten
+Theme URI: http://wordpress.org/
+Description: The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the "Asides" and "Gallery" categories, and has an optional one-column page template that removes the sidebar.
+Author: the WordPress team
+Version: 1.3
+License: GNU General Public License
+License URI: license.txt
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+*/
+/* CSS main */
+
+
+
+#contacto .cform textarea, .cform input {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-style: none none solid;
+    border-width: 0 0 2px;
+    width: 250px;
+}
+#sendbutton {
+    background-color: #666666;
+    color: #FFFFFF;
+    background-image: none;
+}
+
+#pagna2 .backtop{
+	height: auto;
+	top: 0;
+}
+
+.volverini{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+}
+
+#contacto .cform li input, #contacto .cform li input {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-style: none none solid;
+    border-width: 0 0 2px;
+    width: 250px;
+}
+#contacto .cform label {
+    text-align: left;
+}
+#contacto .cform textarea {
+    background-image: url("images/liniea.png");
+    background-position: 0 24px;
+    border-bottom: 0 solid #CCCCCC !important;
+    height: 166px;
+    line-height: 2em;
+    overflow: hidden;
+    width: 100%;
+}
+#contacto .cform textarea *:hover {
+    background-image: url("images/liniea.png");
+    background-position: 0 24px;
+    border-bottom: 0 solid #CCCCCC !important;
+    height: 166px;
+    line-height: 2em;
+    overflow: hidden;
+    width: 535px;
+}
+
+
+.container .hero-unit p{
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 22px;
+}
+
+.sharrre .button{
+	float:left;
+	width:60px;
+}
+
+.bordo, .hero-unit img {
+  background:transparent url(images/pac.gif) center no-repeat;
+  }
+
+.upitem{
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 30px 0 0 30px !important;
+	height: 44px !important;
+}
+
+
+.downitem{
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 0 30px 30px 0 !important;
+	height: 44px !important;
+}
+
+.upitem img{
+	height: 36px;
+}
+
+
+.reloitem ul{
+	left: 10px;
+    list-style: none outside none;
+    margin: auto;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+
+.reloitem li{
+	margin-bottom:10px;
+    opacity: 0;
+  	filter:  alpha(opacity=0);
+  	background: #000;
+}
+.reloitem a{
+	padding: 16px;
+	color: #fff;
+}
+.reloitem img{
+	padding-top: 3px;
+}
+
+.reloitem{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+.shadowfine{
+	-webkit-box-shadow: #666 0px 2px 3px; -moz-box-shadow: #666 0px 2px 3px; box-shadow: #666 0px 2px 3px;
+}
+
+#socialall{
+	width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.bordo {
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 4px 0;
+}
+
+/*.listprovent{
+	height: 220px;
+}*/
+
+.box{ 
+	margin-left: 10px !important;
+}
+
+#branding .bags{
+	position:absolute;
+	right:0px;
+}
+
+#quienes-somos .bags{
+	position:absolute;
+	right:0px;
+}
+
+#audiovisual .bags{
+	position:absolute;
+	right:0px;
+}
+
+
+body { padding-bottom: 20px; background-image: url(images/3.png);}
+#unoraya .navbar-fixed-top{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#cualog a{outline: 0 solid #000000;}
+
+#unoraya{
+	padding-left: 0;
+    padding-right: 0;
+}
+
+#unoraya h2{
+	font-size: 81px;
+	font-weight: lighter;
+	line-height: 81px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+#portafolio{
+	padding-left: 64px;
+}
+
+#unoraya .hero-unit{
+	background-color: transparent;
+	padding: 40px;
+}
+
+#unoraya .nav-collapse, #unoraya .nav-collapse.collapse{
+	height:auto;
+}
+html{height: 100%;}
+#logo{text-align: center; display: table-cell; vertical-align: middle; }
+footer{position: absolute; bottom: 0px; left:0px; width: 100%; text-align: center;}
+#barup{position: relative;}
+#lov{ position: absolute; z-index: 0; left: 1px; top: 1px;}
+#contlog{
+	position: relative; 
+	height: 175px;
+    width: 250px; 
+}
+#logocent{
+	height: 200px;
+    width: 250px;
+    margin: auto;
+}
+#cualog .flbc{
+	float: left;
+	background-image: url(images/indice.png);
+	position: relative;
+}
+#cualog2 .flbc{
+	float: left;
+	background-image: url(images/indicev.png);
+	position: relative;
+	opacity:0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+#cualog{position: relative;}
+#cualog2{position: absolute;;}
+.flecha{position: absolute; width: 50px; height: 50px; top: 0px;
+	background-image: url(images/botones.png);
+	background-repeat: no-repeat;
+}
+#pagna .paginauno{
+	background-image: url(images/3.png);
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+	-webkit-box-shadow: #666 -2px 0px 10px;
+	-moz-box-shadow: #666 -2px 0px 10px;
+	box-shadow: #666 -2px 0px 10px;
+	z-index: 1;
+}
+
+#pagna2 .paginauno{
+	background-image: url(images/3.png);
+	position: relative;
+	-webkit-box-shadow: #666 -2px 0px 10px;
+	-moz-box-shadow: #666 -2px 0px 10px;
+	box-shadow: #666 -2px 0px 10px;
+	z-index: 1;
+	padding-bottom: 40px;
+}
+
+#pagna2{
+	list-style: none;
+	margin:0px;
+}
+
+#pagna{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	list-style: none;
+}
+#corta{
+	overflow: hidden;
+	position: absolute;
+	height: 100%;
+}
+.backtop{
+	position: absolute !important;
+	z-index: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+#social{
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+
+.social-btn:hover, .buscador-btn:hover{
+	cursor: pointer;
+}
+#twitter-wid{
+	padding-left: 30px;
+	padding-top: 4px;
+	display:none;
+}
+
+.cierra-tr{
+	top:10px; right:40px; position:absolute;
+	z-index: 2;
+}
+
+.cierra-tr:hover{
+	cursor: pointer;
+}
+
+.bb1 {
+    background-color: #FFFFFF !important;
+    background-image: url("images/busca2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 30px 0 0 30px !important;
+    height: 60px !important;
+    width: 10% !important;
+    display: block;
+    float: left
+}
+
+#buscador input {
+    font-size: 20px;
+    height: 52px;
+    width: 80%;
+}
+
+#buscador{
+	margin-left: 5%;
+	margin-top: 2%;
+	display:none;
+}
+
+.bbc{
+		border-radius:0 30px 30px 0 !important; 
+		width:80% !important; height: 60px;
+	}
+
+
+#dd .bba{
+	border-radius:0 30px 30px 0 ; 
+	width:80% ; height: 30px;
+}
+
+.bb0{
+	border-radius:30px 0 0 30px !important; 
+	width: 10% !important; 
+	background-color: #fff !important; 
+	height: auto !important; 
+	height: 30px !important; 
+	background-image: url('images/busca_min.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.bb0:hover, .bb1:hover{
+	cursor: pointer;
+}
+
+
+

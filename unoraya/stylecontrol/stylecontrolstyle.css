@@ -1,0 +1,74 @@
+
+
+.stylepanel {
+position: fixed;
+top: 30px;
+left: 0;
+display: none;
+background: #fff;
+border:1px solid #ddd;
+-moz-border-radius-topright: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+-webkit-border-bottom-right-radius: 3px;
+width: 150px;
+height: auto;
+padding: 50px 10px 10px 30px;
+filter: alpha(opacity=95);
+opacity: .95;
+}
+
+.stylepanel ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.stylepanel a, .stylepanel a:visited{
+margin: 0;
+padding: 0;
+color: #900;
+text-decoration: none;
+border-bottom: 1px solid #ddd;
+}
+
+.stylepanel a:hover, .stylepanel a:visited:hover{
+margin: 0;
+padding: 0;
+color: #000;
+text-decoration: none;
+border-bottom: 1px solid #999;
+}
+
+a.trigger{
+position: fixed;
+text-decoration: none;
+top: 30px; left: -65px;
+font-size: 14px;
+color:#000;
+padding: 5px 45px 10px 15px;
+font-weight: bold;
+background:#eee url(images/plus.png) 85% 49% no-repeat;
+border:1px solid #ddd;
+-moz-border-radius-topright: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+display: block;
+}
+
+a.trigger:hover{
+position: absolute;
+text-decoration: none;
+color:#999;
+background:#ddd url(images/plus.png) 85% 49% no-repeat;
+border:1px solid #ccc;
+display: block;
+}
+
+a.active.trigger {
+background:#fff url(images/minus.png) 85% 49% no-repeat;
+}
+

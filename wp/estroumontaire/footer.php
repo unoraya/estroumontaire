@@ -1,7 +1,7 @@
     </div><!-- /row -->
   </div> <!-- /container -->
   <footer>
-
+    <img src="<?php echo get_template_directory_uri(); ?>/images/foot.jpg" alt="">
   </footer>
   <!-- Le javascript
   ================================================== -->

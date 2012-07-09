@@ -13,7 +13,7 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 
 header{background-image: url(images/part1.png); background-repeat:repeat-x; } 
-footer{border-top:thick solid #F9B233; margin-top: 20px; height: 150px; background-color:#3C3C3B; }
+footer{border-top:thick solid #F9B233; margin-top: 20px; height: 150px; background-color:#3C3C3B; text-align: center;}
 #fondoh{ width:100%; position: absolute; top:0px; left:0px; }
 #construmentaire{padding-left: 0px; padding-right: 0px; font-family: "Myriad Pro", Arial, Helvetica, Tahoma, sans-serif; background-position: 0 bottom; background-image: url(images/part2.png); background-repeat:repeat-x; font-size: 25px; color: #58595B; font-size: 18px; font-weight: lighter; line-height: 21px; }
 #bann{position: relative; z-index: 4; }
@@ -25,6 +25,7 @@ footer{border-top:thick solid #F9B233; margin-top: 20px; height: 150px; backgrou
 #construmentaire .navbar .nav > li > a:hover{color: #fff; }
 #construmentaire .navbar .nav{margin-bottom: 0; }
 .item-up-fine{background-color: #575756; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset; min-height: 76px; padding-top: 5px; padding-bottom: 5px; color:#fff; position: relative; }
+.item-up-fine:hover{color:#F8B045}
 #portafolio-btn, #servicios-btn, #contacto-btn {background-image: url("images/logo.png"); display: block; height: 80px; width: 90px; float: left; position: absolute; top: 0px; }
 #portafolio-btn{background-position: 356px 0; }
 #servicios-btn{background-position: 272px 0; width: 110px; }
@@ -33,9 +34,8 @@ footer{border-top:thick solid #F9B233; margin-top: 20px; height: 150px; backgrou
 #tickete{position: absolute; right: -3%; top: 64px; width: 30%; z-index: 23; }
 #bann2 {margin-top: 15px; }
 #bann2 img{width: 100%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
-#contenido-p h2{color: #58595B; font-size: 45px; line-height: 45px; margin-bottom: 15px; }
+#contenido-p h2{color: #58595B; font-size: 45px; line-height: 45px; margin-bottom: 15px; padding: 0 20px;}
 #contenido-p{margin-top: 15px; }
 #logo{position: relative; top: 30px; }
-.txt{margin-bottom:20px; text-align: justify; }
-.camera_commands{display:none; }
-.camera_next{display:none; }
+.txt{margin-bottom:20px; text-align: justify; padding: 0 20px;}
+.camera_commands, .camera_next, .camera_prev{display:none; }

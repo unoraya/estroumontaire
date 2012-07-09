@@ -36,7 +36,7 @@
 		<img id="fondoh" src="<?php echo get_template_directory_uri(); ?>/images/backban.png" alt="fondo-header">
 		<div id="bann" class="container">
 			<div class="span12"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo2.png" alt="logo"></div>
-			<div class="span12" style="margin-left:0px;">
+			<div class="span12" style="margin-left:0px; overflow:hidden;">
 				<div id="hero-fine" >
 					<img id="tickete" src="<?php echo get_template_directory_uri(); ?>/images/ticket.png" alt="tickete">
 					<div class="fluid_container">
@@ -86,18 +86,18 @@
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<!-- Example row of columns -->
 			<div class="row">
-				<div class="span4 item-up-fine">
+				<a href="#" class="span4 item-up-fine">
 					<span id="portafolio-btn"></span>
 					<h2 class="titulo-item-up">PORTAFOLIO</h2>
-				</div>
-				<div class="span4 item-up-fine">
+				</a>
+				<a href="#" class="span4 item-up-fine">
 					<span id="servicios-btn"></span>
 					<h2 class="titulo-item-up">SERVICIOS</h2>
-			   </div>
-				<div class="span4 item-up-fine">
+			   </a>
+				<a href="#" class="span4 item-up-fine">
 					<span id="contacto-btn"></span>
 					<h2 class="titulo-item-up">CONTACTO</h2>
-				</div>
+				</a>
 				<div id="bann2" class="span12">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/banner-01.jpg" alt="banner-01">
 				</div>
